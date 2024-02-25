@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+}
+body {
+  background-image: url("/Images/expense.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-container {
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+}
+
+.main-table {
+  margin: auto;
+  padding: 10px 10px 10px 10px;
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: cursive !important;
+}
+
+.select-btn {
+  background-color: rgba(243, 172, 28, 255) !important;
+  cursor: pointer;
+  margin-bottom: 20px !important;
+  color: black !important;
+}
+
+.add-btn{
+  background-color: rgba(243, 172, 28, 255) !important;
+  cursor: pointer;
+  color: black !important;
+}
+
+tr.MuiTableRow-root.MuiTableRow-head.css-1q1u3t4-MuiTableRow-root {
+  background-color: rgba(243, 172, 28, 255) !important;
+}
+
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-alignLeft.MuiTableCell-sizeMedium.css-1ygcj2i-MuiTableCell-root {
+  font-size: 15px !important;
+  font-weight: bold !important;
+}
+
+.box-container{
+  margin: auto;
+  /* width: 50%; */
+  padding: 20px 20px 20px 20px;;
+  border: 2px solid rgba(243, 172, 28, 255);
+  background-color: white;
+}
+
+.MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+  width: 100% !important;
+}
+
+.MuiFormControl-root.css-1869usk-MuiFormControl-root{
+  width: 100% !important;
+}
+
+.text-input{
+  margin-bottom: 10px;
+}
+
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+  color:rgba(243, 172, 28, 255) !important
+}
